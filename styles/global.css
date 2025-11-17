@@ -1,11 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /* Simple base styles */
 html, body, #__next {
   height: 100%;
 }
+
 body {
-  @apply bg-gray-50 text-gray-900;
+  background-color: #f8fafc;
+  color: #111827;
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
